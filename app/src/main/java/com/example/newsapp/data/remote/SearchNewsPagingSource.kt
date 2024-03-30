@@ -5,7 +5,7 @@ import androidx.paging.PagingState
 import com.example.newsapp.data.remote.apis.NewsApi
 import com.example.newsapp.domain.model.Article
 
-class SearchPagingSource(
+class SearchNewsPagingSource(
     private val newsApi: NewsApi,
     private val searchQuery: String,
     private val sources: String,

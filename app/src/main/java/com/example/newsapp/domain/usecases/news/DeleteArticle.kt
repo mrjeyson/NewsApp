@@ -1,4 +1,14 @@
 package com.example.newsapp.domain.usecases.news
 
-class DeleteArticle {
+import com.example.newsapp.data.local.dao.NewsDao
+import com.example.newsapp.domain.model.Article
+import com.example.newsapp.domain.repository.NewsRepository
+
+class DeleteArticle(
+    private val newsRepository: NewsRepository
+) {
+
+    suspend operator fun invoke(article: Article) {
+        newsRepository.deleteArticle(article)
+    }
 }

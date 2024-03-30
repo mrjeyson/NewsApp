@@ -1,4 +1,6 @@
 package com.example.newsapp.presentaion.onboarding
 
-class OnBoardingEvent {
+sealed class OnBoardingEvent {
+
+    object SaveAppEntry : OnBoardingEvent()
 }
