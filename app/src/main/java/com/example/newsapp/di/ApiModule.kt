@@ -12,8 +12,6 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object ApiModule {
 
-
-
     @Provides
     @Singleton
     fun newsApi(retrofit: Retrofit): NewsApi = retrofit.create(NewsApi::class.java)
