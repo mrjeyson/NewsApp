@@ -15,5 +15,4 @@ object ApiModule {
     @Provides
     @Singleton
     fun newsApi(retrofit: Retrofit): NewsApi = retrofit.create(NewsApi::class.java)
-
 }
