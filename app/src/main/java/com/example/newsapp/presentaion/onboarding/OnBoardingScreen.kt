@@ -18,6 +18,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
 import com.example.newsapp.presentaion.Dimens.MediumPadding2
 import com.example.newsapp.presentaion.Dimens.PageIndicatorWidth
 import com.example.newsapp.presentaion.common.NewsButton
@@ -96,5 +97,13 @@ fun OnBoardingScreen(
 
         }
         Spacer(modifier = Modifier.weight(0.5f))
+    }
+}
+
+@Preview
+@Composable
+fun OnBoardingScreenPreview() {
+    OnBoardingScreen {
+    
     }
 }
