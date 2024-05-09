@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-<style name="App.Starting.Theme" parent="Theme.SplashScreen">
 
-    <item name="android:windowSplashScreenBackground" tools:targetApi="s">#FFFF</item>
-    <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@drawable/ic_splash</item>
-    <item name="postSplashScreenTheme">@style/Theme.NewsApp</item>
-</style>
-    
+    <style name="App.Starting.Theme" parent="Theme.SplashScreen">
+
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">#FFFF</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">
+            @drawable/ic_splash
+        </item>
+        <item name="android:windowSplashScreenAnimationDuration" tools:targetApi="s">30000</item>
+        <item name="postSplashScreenTheme">@style/Theme.NewsApp</item>
+    </style>
+
 </resources>

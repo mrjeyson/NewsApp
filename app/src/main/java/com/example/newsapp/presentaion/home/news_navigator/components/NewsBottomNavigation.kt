@@ -43,7 +43,6 @@ fun NewsBottomNavigation(
                 selected = index == selected,
                 onClick = { onItemClick(index) },
                 icon = {
-
                     Column(horizontalAlignment = CenterHorizontally) {
                         Icon(
                             painter = painterResource(id = item.icon),

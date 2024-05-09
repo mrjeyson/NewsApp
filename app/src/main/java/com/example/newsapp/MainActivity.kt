@@ -46,7 +46,6 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             NewsAppTheme {
-
                 Box(modifier = Modifier.background(color = MaterialTheme.colorScheme.background)) {
                     val startDestination = viewModel.startDestination
                     NavGraph(startDestination = startDestination)
