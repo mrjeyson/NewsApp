@@ -80,7 +80,6 @@ fun OnBoardingScreen(
                     }
                     )
                 }
-
                 NewsButton(text = buttonState.value[1], onClick = {
                     scope.launch {
                         if (pagerState.currentPage == 2) {
@@ -104,6 +103,5 @@ fun OnBoardingScreen(
 @Composable
 fun OnBoardingScreenPreview() {
     OnBoardingScreen {
-    
     }
 }

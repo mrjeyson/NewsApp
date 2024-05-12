@@ -21,7 +21,6 @@ fun SearchScreen(
     event: (SearchEvent) -> Unit,
     navigateToDetails: (Article) -> Unit
 ) {
-
     Column(
         modifier = Modifier
             .padding(
@@ -43,8 +42,8 @@ fun SearchScreen(
             ArticleList(articles = articles, onClick = { navigateToDetails(it) })
         }
     }
-
 }
+
 
 @Preview
 @Composable

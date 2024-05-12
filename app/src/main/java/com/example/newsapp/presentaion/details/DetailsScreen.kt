@@ -35,7 +35,6 @@ fun DetailsScreen(
     event: (DetailsEvent) -> Unit,
     navigateUp: () -> Unit
 ) {
-
     val context = LocalContext.current
 
     Column(
