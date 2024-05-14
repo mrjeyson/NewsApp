@@ -92,7 +92,6 @@ fun NewsNavigator() {
                                 navController = navController,
                                 route = Route.BookmarkScreen.route
                             )
-
                         }
                     }
                 )
