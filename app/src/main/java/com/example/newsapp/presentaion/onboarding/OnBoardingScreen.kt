@@ -66,7 +66,6 @@ fun OnBoardingScreen(
                 pageSize = pages.size,
                 selectedPage = pagerState.currentPage
             )
-
             Row(verticalAlignment = Alignment.CenterVertically) {
 
                 val scope = rememberCoroutineScope()
@@ -92,7 +91,6 @@ fun OnBoardingScreen(
                 })
 
             }
-
         }
         Spacer(modifier = Modifier.weight(0.5f))
     }

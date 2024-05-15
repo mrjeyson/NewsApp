@@ -168,7 +168,6 @@ fun NewsNavigator() {
             }
         }
     }
-
 }
 
 fun navigateToTab(navController: NavController, route: String) {
