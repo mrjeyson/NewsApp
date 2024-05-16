@@ -62,7 +62,6 @@ fun NewsNavigator() {
         }
     }
 
-
     val isBottomBarVisible = remember(key1 = backstackState) {
         backstackState?.destination?.route == Route.HomeScreen.route ||
                 backstackState?.destination?.route == Route.SearchScreen.route ||
@@ -123,7 +122,6 @@ fun NewsNavigator() {
                     }
                 )
             }
-
             composable(route = Route.SearchScreen.route) {
                 val viewModel: SearchViewModel = hiltViewModel()
                 val state = viewModel.state.value
@@ -138,7 +136,6 @@ fun NewsNavigator() {
                     }
                 )
             }
-
             composable(route = Route.DetailScreen.route) {
                 val viewModel: DetailsViewModel = hiltViewModel()
                 if (viewModel.sideEffect != null) {
@@ -155,7 +152,6 @@ fun NewsNavigator() {
                         )
                     }
             }
-
             composable(route = Route.BookmarkScreen.route) {
                 val viewModel: BookmarkViewModel = hiltViewModel()
                 val state = viewModel.state.value
