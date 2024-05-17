@@ -16,6 +16,7 @@ class DataBaseModule {
     @Singleton
     fun getDataBase(): NewsDatabase = NewsDatabase.getDatabase()
 
+
     @Provides
     @Singleton
     fun getMessageModelDao(newsDatabase: NewsDatabase): NewsDao =

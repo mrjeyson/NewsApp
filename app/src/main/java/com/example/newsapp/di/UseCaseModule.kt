@@ -24,6 +24,7 @@ object UseCaseModule {
     fun provideNewsUseCases(
         newsRepository: NewsRepository,
     ): NewsUseCases {
+
         return NewsUseCases(
             getNews = GetNews(newsRepository),
             searchNews = SearchNews(newsRepository),
