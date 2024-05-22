@@ -37,7 +37,6 @@ fun ArticleList(
 
 }
 
-
 @Composable
 fun ArticleList(
     modifier: Modifier = Modifier,
