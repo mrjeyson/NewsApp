@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.hilt)
     alias(libs.plugins.ksp)
     alias(libs.plugins.parcelize)
+
 }
 
 android {
@@ -101,10 +102,13 @@ dependencies {
     //Room database
     implementation(libs.androidx.room.runtime)
     annotationProcessor(libs.androidx.room.compiler)
+
     // To use Kotlin annotation processing tool (kapt)
     ksp(libs.androidx.room.compiler)
+
     // optional - Kotlin Extensions and Coroutines support for Room
     implementation(libs.androidx.room.ktx)
+
     // optional - Paging 3 Integration
     implementation(libs.androidx.room.paging)
 
