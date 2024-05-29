@@ -179,7 +179,6 @@ fun navigateToTab(navController: NavController, route: String) {
     }
 }
 
-
 fun navigateToDetail(navController: NavController, article: Article) {
     navController.currentBackStackEntry?.savedStateHandle?.set("article", article)
     navController.navigate(route = Route.DetailScreen.route)
