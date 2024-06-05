@@ -18,3 +18,4 @@ data class Article(
     val urlToImage: String
 ):Parcelable
 
+
