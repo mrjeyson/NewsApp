@@ -45,8 +45,6 @@ fun NewsNavigator() {
             BottomNavigationItem(icon = R.drawable.ic_bookmark, text = "Bookmark"),
         )
     }
-
-
     val navController = rememberNavController()
     val backstackState = navController.currentBackStackEntryAsState().value
     var selectedItem by rememberSaveable {
