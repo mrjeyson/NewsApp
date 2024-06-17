@@ -21,6 +21,7 @@ fun SearchScreen(
     event: (SearchEvent) -> Unit,
     navigateToDetails: (Article) -> Unit
 ) {
+
     Column(
         modifier = Modifier
             .padding(
