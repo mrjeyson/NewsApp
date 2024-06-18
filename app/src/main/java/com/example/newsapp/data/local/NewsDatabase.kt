@@ -1,10 +1,11 @@
-package com.example.newsapp.data.local.dao
+package com.example.newsapp.data.local
 
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import com.example.newsapp.app.App
+import com.example.newsapp.data.local.dao.NewsDao
 import com.example.newsapp.domain.model.Article
 
 @Database(entities = [Article::class], version = 2)

@@ -1,4 +1,4 @@
-package com.example.newsapp.data.local.dao
+package com.example.newsapp.data.local
 
 import androidx.room.ProvidedTypeConverter
 import androidx.room.TypeConverter

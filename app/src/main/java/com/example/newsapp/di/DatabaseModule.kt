@@ -1,7 +1,7 @@
 package com.example.newsapp.di
 
 import com.example.newsapp.data.local.dao.NewsDao
-import com.example.newsapp.data.local.dao.NewsDatabase
+import com.example.newsapp.data.local.NewsDatabase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
