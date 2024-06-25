@@ -40,6 +40,4 @@ fun NavGraph(
             }
         }
     }
-
-
 }
