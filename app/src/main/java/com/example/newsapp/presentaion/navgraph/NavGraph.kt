@@ -14,6 +14,7 @@ import com.example.newsapp.presentaion.onboarding.OnBoardingViewModel
 fun NavGraph(
     startDestination: String
 ) {
+
     val navController = rememberNavController()
 
     NavHost(navController = navController, startDestination = startDestination) {
