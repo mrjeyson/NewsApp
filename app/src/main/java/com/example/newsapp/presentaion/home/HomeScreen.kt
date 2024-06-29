@@ -37,6 +37,7 @@ fun HomeScreen(
     navigateToDetails: (Article) -> Unit
 ) {
 
+
     val titles by remember {
         derivedStateOf {
             if (articles.itemCount > 10) {
