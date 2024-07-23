@@ -15,7 +15,6 @@ class BookmarkViewModel @Inject constructor(
     private val newsUseCases: NewsUseCases
 ) : ViewModel() {
 
-
     private val _state = mutableStateOf(BookmarkState())
     val state: State<BookmarkState> = _state
 
