@@ -44,7 +44,6 @@ fun ArticleList(
     onClick: (Article) -> Unit
 ) {
 
-
     val handlePagingResult = handlePagingResult(articles = articles)
     if (handlePagingResult) {
         LazyColumn(
