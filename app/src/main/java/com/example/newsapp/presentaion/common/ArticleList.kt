@@ -14,7 +14,6 @@ import com.example.newsapp.domain.model.Article
 import com.example.newsapp.presentaion.Dimens.ExtraSmallPadding2
 import com.example.newsapp.presentaion.Dimens.MediumPadding1
 
-
 @Composable
 fun ArticleList(
     modifier: Modifier = Modifier,
@@ -81,7 +80,7 @@ fun handlePagingResult(
         }
 
         error != null -> {
-            EmptyScreen(error =error)
+            EmptyScreen(error = error)
             false
         }
 
