@@ -21,6 +21,7 @@ fun ArticleList(
     articles: List<Article>,
     onClick: (Article) -> Unit
 ) {
+
     if (articles.isEmpty()) {
         EmptyScreen()
     }
