@@ -42,7 +42,6 @@ class MainActivity : ComponentActivity() {
                 viewModel.splashCondition
             }
         }
-
         setContent {
             NewsAppTheme {
                 Box(modifier = Modifier.background(color = MaterialTheme.colorScheme.background)) {
