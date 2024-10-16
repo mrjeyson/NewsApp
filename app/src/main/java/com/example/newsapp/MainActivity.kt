@@ -37,7 +37,6 @@ class MainActivity : ComponentActivity() {
                 Color.TRANSPARENT, Color.TRANSPARENT
             ),
         )
-
         installSplashScreen().apply {
             setKeepOnScreenCondition {
                 viewModel.splashCondition
