@@ -13,7 +13,6 @@ interface NewsDao {
 
 
 
-
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsert(article: Article)
 
