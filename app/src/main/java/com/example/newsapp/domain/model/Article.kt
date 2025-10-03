@@ -33,7 +33,6 @@ data class Article(
 
 
 
-
     val author: String?,
     val content: String,
     val description: String,
