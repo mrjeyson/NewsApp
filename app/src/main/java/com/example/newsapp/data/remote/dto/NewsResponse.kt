@@ -8,4 +8,3 @@ data class NewsResponse(
     val totalResults: Int
 )
 
-
